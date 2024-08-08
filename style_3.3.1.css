@@ -1,0 +1,56 @@
+
+
+*{
+    font-family: monospace;
+}
+
+body{
+    background-color:rgb(93, 101, 122);
+}
+
+.picture {
+   width: 600px;
+   height: 800px;
+   margin-left: 50;
+   transform: translate(750px, -150px)
+}
+
+h2{
+    color: antiquewhite;
+    font-size: 600%;
+    transform: translate(0, -295px)
+}
+
+
+.info{
+    color:rgb(106, 213, 178);
+    font-size: 200%;
+    transform: translate(0, -300px);
+}
+
+:link{
+    color:antiquewhite;
+    font-size: 120%;
+}
+
+.links{
+    transform: translate(0, -300px);
+    }
+
+#contact-form {
+    color: aquamarine;
+    background-color: none;
+    transform: translate(0px, -320px)
+}
+
+h3{
+  color:  rgb(106, 213, 178);
+}
+
+.required{
+  color: antiquewhite;
+}
+
+#submit-button{
+    background-color:rgb(106, 213, 178);
+}
