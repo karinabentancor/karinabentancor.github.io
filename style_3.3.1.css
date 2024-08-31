@@ -2,46 +2,46 @@
 
 *{
     font-family: monospace;
+    -moz-box-sizing: padding-box;
 }
 
 body{
     background-color:rgb(93, 101, 122);
+    display: grid;
 }
 
 .picture{
-   width: 600px;
-   height: 800px;
-   margin-left: 50;
-   transform: translate(750px, -150px)
+ 
+    width: 600px;
+    height: 800px;
+    margin:100%
+}
+
+.image{
+width: 50%;
+size-adjust: 20%;
 }
 
 h2{
     color: antiquewhite;
     font-size: 600%;
-    transform: translate(0, -295px)
+    grid-area: header;
 }
 
 
 .info{
     color:rgb(106, 213, 178);
     font-size: 200%;
-    transform: translate(0, -300px);
+    align-items: flex-start;
 }
 
-:link{
-    color:antiquewhite;
-    font-size: 120%;
-}
-
-.links{
-    transform: translate(0, -300px);
-    }
 
 #contact-form{
     color: aquamarine;
     background-color: none;
     align-content: last baseline;
     align-items: self-end;
+    align-content: baseline;
 }
 
 h3{
@@ -55,12 +55,6 @@ h3{
 #submit-button{
     background-color:rgb(106, 213, 178);
 }
-
-footer{
-    margin-top:50px;
-    width:200%;
-    height:500px;
-   }
 
 
    .linkedin-icon{
@@ -89,4 +83,12 @@ footer{
 
 .linkedin-icon:hover{
     color: rgb(106, 213, 178); /* Color del ícono al pasar el ratón */
+}
+
+@media (max-width: 400px){
+ 
+.picture{
+    width: 100%;
+}
+
 }
