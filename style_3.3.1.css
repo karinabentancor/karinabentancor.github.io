@@ -64,6 +64,7 @@ footer{
 
 
    .bi--linkedin {
+    font-size: 2em;
     display: inline-block;
     width: 1em;
     height: 1em;
@@ -76,3 +77,15 @@ footer{
     -webkit-mask-size: 100% 100%;
     mask-size: 100% 100%;
   }
+
+
+  .github-icon {
+    font-size: 2em; /* Tamaño del ícono */
+    color: white; /* Color del ícono */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block;
+    transition: color 0.3s; /* Transición suave para el color */
+}
+.github-icon:hover {
+    color: #f0f0f0; /* Color del ícono al pasar el ratón */
+}
