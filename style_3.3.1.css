@@ -49,6 +49,7 @@ h2{
 }
 
 .linkedin-icon {
+    white-space: 60%;
     
 }
 
@@ -103,6 +104,7 @@ h3{
     text-decoration: none; /* Sin subrayado */
     display: inline-block;
     transition: color 0.3s; /* Transición suave para el color */
+    align-items: first baseline;
 }
 .github-icon:hover{
     color: rgb(106, 213, 178); /* Color del ícono al pasar el ratón */
@@ -112,20 +114,38 @@ h3{
     color: rgb(106, 213, 178); /* Color del ícono al pasar el ratón */
 }
 
+
 @media (max-width: 400px){
  
 .picture{
     float: left;
-    size-adjust: 100%;
+    
 }
 
 #contact-form {
     align-content: center;
     padding-inline-end: 20%;
+    margin-right: 10%;
 }
 
 h2{
-    size:10%;
+    font-size:200%;
+    margin-top: 0%;
 }
+
+.info{
+    font-size: 100%;
+}
+
+.github-icon{
+    font-size: 2em
+    
+}
+
+.linkedin-icon{
+    font-size: 2em
+    
+}
+
 
 }
