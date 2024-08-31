@@ -64,7 +64,8 @@ footer{
 
 
    .linkedin-icon{
-    font-size: 2em;
+    font-size: 3em;
+    color: white;
     display: inline-block;
     width: 1em;
     height: 1em;
@@ -72,15 +73,11 @@ footer{
     background-color: currentColor;
     -webkit-mask-image: var(--svg);
     mask-image: var(--svg);
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    -webkit-mask-size: 100% 100%;
-    mask-size: 100% 100%;
   }
 
 
   .github-icon{
-    font-size: 2em; /* Tamaño del ícono */
+    font-size: 3em; /* Tamaño del ícono */
     color: white; /* Color del ícono */
     text-decoration: none; /* Sin subrayado */
     display: inline-block;
