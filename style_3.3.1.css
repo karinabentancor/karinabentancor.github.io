@@ -116,7 +116,7 @@ h3{
 }
 
 
-@media  (max-width: 400px){
+@media  (max-width: 320px){
  
 .picture{
     float: left;
@@ -126,17 +126,16 @@ h3{
 #contact-form {
     align-content: center;
     padding-inline-end: 20%;
-    align-items: center;
     
 }
 
 h2{
-    font-size:200%;
+    font-size:100%;
     margin-top: 6%;
 }
 
 .info{
-    font-size: 100%;
+    font-size: 80%;
 }
 
 .github-icon{
@@ -152,13 +151,37 @@ h2{
 
 }
 
-@media (max-width: 600px){
-
-    h2{
-        font-size:250%;
-        margin-top: 0%;
+@media  (max-width: 960px){
+ 
+    .picture{
+        float: left;
+    
+        
     }
     
-
-
-}
+    #contact-form {
+       
+        align-content: center;
+        padding-inline-end: 30%;
+        margin-block: 40%;
+    }
+    
+    h2{
+        font-size:500%;
+        margin-top: 6%;
+    }
+    
+    .info{
+        font-size: 250%;
+    }
+    
+    .github-icon{
+        font-size: 3em
+        
+    }
+    
+    .linkedin-icon{
+        font-size: 3em
+        
+    }
+ }
