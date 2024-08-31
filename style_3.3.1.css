@@ -6,25 +6,27 @@
 
 body{
     background-color:rgb(93, 101, 122);
-    display: grid;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+
 }
 
 .picture{
- 
-    width: 600px;
-    height: 800px;
-    margin:0%
+    width: 40%;
+    height: auto; /* Mantiene la proporción de la imagen */
+    float: left; /* Alinea la imagen a la izquierda */
+    margin-right: 10%;
+    margin-left: 60%;
 }
 
-.image{
-width: 50%;
-size-adjust: 20%;
-}
 
 h2{
     color: antiquewhite;
     font-size: 600%;
-    grid-area: header;
+    align-items: flex-start;
 }
 
 
