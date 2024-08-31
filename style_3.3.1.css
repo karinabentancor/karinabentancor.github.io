@@ -118,6 +118,10 @@ h3{
 
 @media  (max-width: 320px){
  
+    body{
+        padding: 30%;
+        }
+
 .picture{
     float: left;
     
@@ -153,6 +157,8 @@ h2{
 
 @media  (max-width: 960px){
  
+   
+
     .picture{
         float: left;
     
