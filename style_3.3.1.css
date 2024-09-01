@@ -52,6 +52,11 @@ h2{
     float:inline-end;
  }
 
+ .col-6.col-sm-2 {
+    padding: 0; /* Ajusta el padding si es necesario */
+    text-align: center; /* Centra la imagen dentro del contenedor */
+}
+
 #contact-form{
     color: aquamarine;
     background-color: none;
