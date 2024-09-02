@@ -35,9 +35,6 @@ body{
     color: rgb(106, 213, 178);
 }
 
-
-
-
 .icons a {
     text-decoration: none;
     color:antiquewhite;
@@ -48,25 +45,21 @@ body{
     color: rgb(106, 213, 178);
 }
 
-
 .form {
     margin: 20%;
     max-width: 600px;
     padding: 0 20px;
     color:aquamarine;
 }
-
 .required{
     color:antiquewhite;
 }
-
 .input {
     width: 100%;
     padding: 3%;
     margin: 5% 0;
     box-sizing: border-box;
 }
-
 #submit-button {
     background-color: aquamarine;
     color:rgb(72, 74, 76);
@@ -77,8 +70,6 @@ body{
     cursor: pointer;
 }
 
-
-/* Breakpoint para dispositivos móviles (menores a 576px) */
 @media (max-width: 450px) {
     .name {
         font-size: 200%;
@@ -93,7 +84,6 @@ body{
     }
 }
 
-/* Breakpoint para tabletas (de 576px a 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     h2 {
         font-size: 1.8em;
@@ -112,7 +102,6 @@ body{
     }
 }
 
-/* Breakpoint para escritorio (768px o más) */
 @media (min-width: 768px) {
     h2 {
         font-size: 2.2em;
