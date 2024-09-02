@@ -84,9 +84,9 @@ body{
     }
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-    h2 {
-        font-size: 1.8em;
+@media (min-width: 451px) and (max-width: 767.98px) {
+    .name {
+        font-size: 400%;
     }
 
     .info {
@@ -103,8 +103,8 @@ body{
 }
 
 @media (min-width: 768px) {
-    h2 {
-        font-size: 2.2em;
+    .name {
+        font-size: 600%;
     }
 
     .info {
