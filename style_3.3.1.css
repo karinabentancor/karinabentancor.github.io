@@ -6,8 +6,8 @@
 
 body{
     background-color:rgb(93, 101, 122);
-    padding: 4%;
-    padding-top: 0%;
+    padding: 2%;
+    padding-inline-start: 0%;
     padding-right: 0%;
     padding-block-end: 25%;
    
@@ -18,14 +18,16 @@ body{
 }
 
 .picture {
-    max-width: 60%;
-    height: auto;
+    width: 40%;
+    height: auto; /* Mantiene la proporción de la imagen */
+    
+
 }
 
 h2 {
     margin: 0;
     color: antiquewhite;
-    font-size: 2em;
+    font-size: 300%;
 }
 
 .info {
@@ -34,44 +36,46 @@ h2 {
     color: rgb(106, 213, 178);
 }
 
-.icons {
-    margin: 20px 0;
-}
 
+
+
+.icons a {
+    text-decoration: none;
+    color:antiquewhite;
+    margin: 0 10px;
+    font-size: 1.5em;
+}
 .icons:hover{
     color: rgb(106, 213, 178);
 }
 
-.icons a {
-    text-decoration: none;
-    color: #333;
-    margin: 0 10px;
-    font-size: 1.5em;
-}
 
 .form {
-    margin: 20px auto;
+    margin: 20%;
     max-width: 600px;
     padding: 0 20px;
+    color:aquamarine;
+}
+
+.required{
+    color:antiquewhite;
 }
 
 .input {
     width: 100%;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 3%;
+    margin: 5% 0;
     box-sizing: border-box;
 }
 
 #submit-button {
+    background-color: aquamarine;
+    color:rgb(72, 74, 76);
     padding: 10px 20px;
     font-size: 1em;
-    border:1em;
-    
+    stroke-width: 2em;
+    border:3em;
     cursor: pointer;
-}
-
-#submit-button:hover {
-    color: rgb(106, 213, 178);
 }
 
 
