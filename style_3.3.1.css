@@ -13,13 +13,32 @@ body{
 }
 
 .photo {
-    display: block; /* Cambia el comportamiento de la imagen para que se comporte como un bloque */
-    margin: 0 auto; /* Centra el contenedor de la foto horizontalmente */
-    width: 70%; /* Ajusta el ancho según sea necesario */
+    display: block; 
+    margin: 0 auto; 
+    width: 70%; 
 }
 
 .picture {
     width: 100%; 
+}
+
+.form-container {
+    border: 2px solid white; 
+    border-radius: 8px; 
+    padding: 20px;
+    max-width: 90%;
+    margin: 20px auto; 
+    background-color: rgba(0, 0, 0, 0.3); 
+}
+
+.input {
+    width: calc(100% - 22px); /* Ajuste del ancho para considerar el padding del contenedor */
+    padding: 1%;
+    margin: 10px 0; 
+    border: 1px solid white; 
+    border-radius: 4px; 
+    background-color: transparent; 
+    color: white; 
 }
 
 .name {
