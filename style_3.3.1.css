@@ -1,5 +1,6 @@
 *{
     font-family: monospace;
+    box-sizing: border-box;
 }
 
 body{
@@ -13,13 +14,14 @@ body{
 
 .photo {
     margin: 0%;
-    float: left;
+    float: center;
     margin-right: 0px;
+    width: 90%;
   
 }
 
 .picture {
-    width: 40%;Sí, quiero
+    width: 80%;
 
 }
 
@@ -56,7 +58,7 @@ mask-image: var(--svg);
 .icons a {
     text-decoration: none;
     color: antiquewhite;
-    font-size: 3em; 
+    font-size: 90em; 
     display: flex; 
     align-items: center; 
 }
@@ -66,6 +68,13 @@ mask-image: var(--svg);
     color: rgb(106, 213, 178);
 }
 
+
+.github-icon {
+    font-size: 260% !important;
+    color: antiquewhite;
+    display: flex; 
+    align-items: center; 
+}
 .github-icon:hover{
     color: rgb(106, 213, 178);
 }
