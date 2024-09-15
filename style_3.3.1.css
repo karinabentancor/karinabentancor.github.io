@@ -13,22 +13,20 @@ body{
 }
 
 .photo {
-    margin: 0%;
-    float: center;
-    margin-right: 0px;
-    width: 90%;
-  
+    display: block; /* Cambia el comportamiento de la imagen para que se comporte como un bloque */
+    margin: 0 auto; /* Centra el contenedor de la foto horizontalmente */
+    width: 70%; /* Ajusta el ancho según sea necesario */
 }
 
 .picture {
-    width: 80%;
-
+    width: 100%; 
 }
 
 .name {
     margin: 0;
     color: antiquewhite;
     font-size: 600%;
+    
 }
 
 .info {
