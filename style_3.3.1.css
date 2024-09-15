@@ -41,7 +41,7 @@ body {
 }
 
 .linkedin-icon, .github-icon {
-    width: 2.5em; /* Tamaño consistente para ambos iconos */
+    width: 2.5em; 
     height: 2.5em;
     color: antiquewhite;
 }
